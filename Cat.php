@@ -7,7 +7,7 @@ class Cat implements interfaseAnimal
     {
         return "Meow";
     }
-    public function jamp()
+    public function jump()
     {
         return "Far";
     }

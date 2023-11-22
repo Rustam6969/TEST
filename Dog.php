@@ -7,7 +7,7 @@ class Dog implements interfaseAnimal
     {
         return "Woof";
     }
-    public function jamp()
+    public function jump()
     {
         return "High";
     }
