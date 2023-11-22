@@ -1,7 +1,7 @@
 <?php 
 namespace Cat; 
 
-class Cat extends Animal implements interfaseAnimal
+class Cat implements interfaseAnimal
 {
     public function makesound()
     {

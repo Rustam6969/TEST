@@ -1,6 +1,8 @@
 <?php 
 namespace Animal;
 
+use Dog\Dog;
+
 abstract class Animal {
     protected $name;
 
@@ -12,24 +14,24 @@ abstract class Animal {
     abstract public function jump();
 }
 
-class Dog extends Animal {
-    public function makesound()
-    {
-        return "Woof";
-    }
-    public function jamp()
-    {
-        return "High";
-    }
-}    
+// class Dog extends Animal {
+//     public function makesound()
+//     {
+//         return "Woof";
+//     }
+//     public function jamp()
+//     {
+//         return "High";
+//     }
+// }    
 
-class Cat extends Animal{
-    public function makesound()
-    {
-        return "Meow";
-    }
-    public function jump()
-    {
-        return "Far";
-    }
-}    
+// class Cat extends Animal{
+//     public function makesound()
+//     {
+//         return "Meow";
+//     }
+//     public function jump()
+//     {
+//         return "Far";
+//     }
+// }    
