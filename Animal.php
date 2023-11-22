@@ -1,4 +1,5 @@
 <?php 
+namespace Animal;
 
 abstract class Animal {
     protected $name;

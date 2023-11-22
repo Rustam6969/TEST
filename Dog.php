@@ -1,5 +1,7 @@
 <?php 
-class Dog extends Animal
+namespace Dog;
+
+class Dog extends Animal implements interfaseAnimal
 {
     public function makesound()
     {
